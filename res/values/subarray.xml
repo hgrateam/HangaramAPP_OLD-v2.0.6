@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjects">
+        <item>과목 선택</item>
+        <item>영어/수학</item>
+        <item>그외 과목들</item>
+    </string-array>
+    
+</resources>

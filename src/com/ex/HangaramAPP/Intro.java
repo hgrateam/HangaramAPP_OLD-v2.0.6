@@ -36,6 +36,7 @@ public class Intro extends Activity {
    	   public void handleMessage(Message message){
     		   super.handleMessage(message);
     		   startActivity(new Intent (Intro.this, Main.class));
+//    		   startActivity(new Intent (Intro.this, Calc.class));
     		   finish();
     	   }
     	   

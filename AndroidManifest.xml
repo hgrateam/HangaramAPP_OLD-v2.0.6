@@ -36,6 +36,7 @@
             android:name="chk_UPDATE"
             android:theme="@android:style/Theme.Translucent"
             android:screenOrientation= "portrait"></activity>
+        <activity android:name="Calc"></activity>
     </application>
 
 </manifest>
