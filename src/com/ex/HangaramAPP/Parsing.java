@@ -168,7 +168,7 @@ public class Parsing extends Activity {
 		Log.i("Net", "update 가 실행되었습니다.");
 		Mlunch = (TextView) findViewById(R.id.TV1);
 		Mdinner = (TextView) findViewById(R.id.TV2);
-
+  //
 		Log.i("Net", dd2);
 		if (getYI(Y, M + 1, D) == 0 || getYI(Y, M + 1, D) == 6) {
 			Mlunch.setText("휴일 입니다");
