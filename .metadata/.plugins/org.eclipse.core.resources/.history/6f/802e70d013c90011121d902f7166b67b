@@ -1,0 +1,69 @@
+package com.ex.HangaramAPP;
+
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+
+public class Loading_Parsing extends Activity {
+
+	// private ProgressDialog pd ;
+	ProgressDialog dialog;
+
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		timeThread();
+
+		/*
+		 * pd = new ProgressDialog( this ) ; pd.setMessage( "네트워크 연결중입니다." ) ;
+		 * pd.setProgressStyle( ProgressDialog.STYLE_SPINNER ) ; pd.show( ) ;
+		 * 
+		 * // 아래의 Runnable을 돌고 나서 호출됨, pd 캔슬 final Handler hd = new Handler( ) {
+		 * public void handleMessage(android.os.Message msg) { pd.dismiss( ) ; }
+		 * } ;
+		 * 
+		 * Runnable tt = new Runnable( ) { public void run() { try {
+		 * Thread.sleep( 3000 ) ; } catch (InterruptedException e) { // TODO
+		 * Auto-generated catch block e.printStackTrace(); } Message msg =
+		 * hd.obtainMessage( ) ; hd.sendMessage( msg ) ; } } ;
+		 * 
+		 * new Thread( tt ).start( ) ;
+		 * 
+		 * 
+		 * Parsing(); }
+		 */
+	}
+
+	public void timeThread() {
+
+		dialog = new ProgressDialog(this);
+		dialog = new ProgressDialog(this);
+		dialog.setTitle("Wait...");
+		dialog.setMessage("Please wait while loading...");
+		dialog.setIndeterminate(true);
+		dialog.setCancelable(true);
+		dialog.show();
+		new Thread(new Runnable() {
+			public void run() {
+				// TODO Auto-generated method stub
+				try {
+					Thread.sleep(5000);
+					
+				} catch (Throwable ex) {
+					ex.printStackTrace();
+				}
+				dialog.dismiss();
+			}
+		}).start();
+		Parsing();
+	}
+
+	public void Parsing() {
+		startActivity(new Intent(Loading_Parsing.this, Parsing.class));
+		finish();
+	}
+
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HangaramAPP</string>
+    <string name="Ateam_info">한가람 고등학교 앱개발부서</string>
+    <string name="Ateam_home">클릭하시면 A-TEAM 홈페이지로 이동합니다.</string>
+    <string name="Master_Ateam">부장 전수현</string>
+    <string name="Secondary_Master_Ateam">차장 장동재</string>
+    <string name="Crew1_Ateam">김준수</string>
+    <string name="Crew2_Ateam">성기선</string>
+    <string name="Crew3_Ateam">조석주</string>
+    <string name="DigitalClock">DigitalClock</string>
+    <string name="Now_constructing">(현재 구현중에 있습니다)</string>
+    <string name="Next_class">다음 시간은?</string>
+    <string name="toHGR">한가람 고등학교로</string>
+    <string name="inquire_meals">조회하기</string>
+    <string name="inquire_btn_select_date">"&apos;조회하기&apos; 버튼을 누른 뒤, 날짜를 선택하여 주십시오."</string>
+    <string name="Ateam_logo">A-Team의 공식로고입니다.</string>
+    <string name="HGR_15th">한가람고 15기</string>
+    <string name="toPrincipleWall">교장선생님께</string>
+    <string name="todayMeal">오늘의 급식</string>
+    <string name="pen_w">펜 아이콘</string>
+    <string name="n_metroui_btn_purple">보라색 매트로UI 아이콘</string>
+    <string name="n2_metroui_btn_blue">파란색 매트로UI 아이콘</string>
+    <string name="facebook_w">페북 아이콘</string>
+    <string name="meal_w">오늘의 급식 아이콘</string>
+    <string name="n_metroui_btn_black">검은색 메트로UI 아이콘</string>
+    <string name="n_metroui_btn_yellow">노란색 메트로UI 아이콘</string>
+    <string name="toHGRency">한가람 대사전</string>
+    <string name="str_lunch">점심</string>
+    <string name="str_dinner">저녁</string>
+    <string name="app_ver">1.1</string>
+    <string name="library_w">도서관 아이콘</string>
+    <string name="toHGRlib">도서관</string>
+    <string name="error">오류</string>
+
+</resources>

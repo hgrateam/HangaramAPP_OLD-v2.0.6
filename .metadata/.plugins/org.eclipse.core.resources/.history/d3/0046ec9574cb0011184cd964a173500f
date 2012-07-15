@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ex.HangaramAPP"
+    android:versionCode="5"
+    android:versionName="@string/app_ver" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+ 
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" android:theme="@android:style/Theme.Black.NoTitleBar">
+        <activity
+            android:name=".HangaramAPPActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="Intro"
+            android:screenOrientation= "portrait"></activity>
+        <activity 
+            android:name="Parsing"
+            android:screenOrientation= "portrait"></activity>
+        <activity 
+            android:name="Devteam_info"
+            android:screenOrientation= "portrait"></activity>
+        <activity 
+            android:name="Main"
+           	android:screenOrientation= "portrait"></activity>
+        <activity 
+            android:name="Chk_UPDATE"
+            android:theme="@android:style/Theme.Translucent"
+            android:screenOrientation= "portrait"></activity>
+        <activity android:name="Loading_Parsing"></activity>
+        <activity android:name="Calc"></activity>
+        <uses-library android:name="com.viewpagerindicator"/>
+    </application>
+
+</manifest>

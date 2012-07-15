@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/the_war_god_ku"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/subspin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scoreview"
+        android:layout_width="fill_parent"
+        android:layout_height="269dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/gocalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="계산" />
+
+        <TextView
+            android:id="@+id/spinhelp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFFFF" />
+
+        <TextView
+            android:id="@+id/spinhelp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="수행 반영 비율 (0~100)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFFFF" />
+
+        <EditText
+            android:id="@+id/subpos"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinhelp2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/s_nullspace2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/spinhelp2"
+            android:layout_below="@+id/subpos"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/DT1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/subpos"
+            android:layout_below="@+id/s_nullspace2"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/s_nullspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinhelp2"
+            android:layout_below="@+id/DT1"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/ET1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s_nullspace"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ET2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ET1"
+            android:layout_toRightOf="@+id/ET1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ET3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ET2"
+            android:layout_alignBottom="@+id/ET2"
+            android:layout_toRightOf="@+id/ET2"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ET4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ET3"
+            android:layout_alignBottom="@+id/ET3"
+            android:layout_toRightOf="@+id/ET3"
+            android:layout_weight="0.01"
+            android:ems="10"
+            android:inputType="number" />
+    </RelativeLayout>
+
+</LinearLayout>

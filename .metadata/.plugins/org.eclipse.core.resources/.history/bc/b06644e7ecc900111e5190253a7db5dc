@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/the_war_god_ku"
+android:orientation="vertical" >
+
+<Spinner
+android:id="@+id/subspin"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" />
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scoreview"
+    android:layout_width="fill_parent"
+    android:layout_height="269dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/s_nullspace2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/s_nullspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/spinhelp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.01"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gocalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="계산" />
+
+    <TextView
+        android:id="@+id/spinhelp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/s_nullspace2"
+        android:layout_centerHorizontal="true"
+        android:text="수행 반영 비율 (0~100)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFFFF" />
+
+    <EditText
+        android:id="@+id/DT1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/subpos"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/spinhelp2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gocalc"
+        android:layout_alignBottom="@+id/gocalc"
+        android:layout_alignLeft="@+id/spinhelp2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ET4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ET1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ET2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ET4"
+        android:layout_alignBottom="@+id/ET4"
+        android:layout_toLeftOf="@+id/ET1"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ET3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ET4"
+        android:layout_alignRight="@+id/subpos"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>
+
+</LinearLayout>
