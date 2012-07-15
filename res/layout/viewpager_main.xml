@@ -10,5 +10,10 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
     </android.support.v4.view.ViewPager>
+    
+        <com.viewpagerindicator.CirclePageIndicator
+	android:id="@+id/CPIndicator"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent" />
 
 </LinearLayout>
