@@ -73,10 +73,10 @@ public class Chk_UPDATE extends Activity {
 					}
 				}
 			} else if(parser.getEventType() == XmlPullParser.TEXT) {
-				Toast toast = Toast.makeText(this, "서버가 응답하지 않습니다",
-						Toast.LENGTH_SHORT);
-				toast.show();
-				Log.i("Net", "서버가삐짐ㅋ");
+//				Toast toast = Toast.makeText(this, "서버가 응답하지 않습니다",
+//						Toast.LENGTH_SHORT);
+//				toast.show();
+//				Log.i("Net", "서버가삐짐ㅋ");
 			}
 			
 			parserEvent = parser.next();

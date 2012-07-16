@@ -165,18 +165,15 @@ public class Main<CustomDialogActivity> extends Activity {
 
 		@Override
 		public Object instantiateItem(View pager, int position) {
-			int nomoreparse = 0;
 			View v = null;
 			if (position == 0) {
-				
+
 				v = mInflater.inflate(R.layout.main, null);
 				// 공지사항을 파싱해 온다
 				v.findViewById(R.id.noticebutton).setOnClickListener(
 						mBTN_viewnotice);
 
 				try {
-					
-					if(nomoreparse==0){
 					URL url = new URL("http://bluepeal.raonnet.com/inf.xml");
 					Log.i("Net", "파싱 시작");
 					XmlPullParserFactory parserCreator = XmlPullParserFactory
@@ -193,7 +190,6 @@ public class Main<CustomDialogActivity> extends Activity {
 										.getAttributeValue(null, "title");
 								ptext = parser.getAttributeValue(null, "text");
 								Log.i("Net", "공지사항을 찾음ㅋ" + ptitle);
-								nomoreparse++;
 								TextView nv = (TextView) v
 										.findViewById(R.id.noticeview);
 								nv.setText(ptitle);
@@ -204,19 +200,9 @@ public class Main<CustomDialogActivity> extends Activity {
 						}
 						parserEvent = parser.next();
 					}
-					
-					
-					
-					
-					}
-					else{}
 				} catch (Exception e) {
 					// 안됨ㅋ
 				}
-				
-			
-				
-				
 
 			} else if (position == 1){
 				v = mInflater.inflate(R.layout.metro_view_menu, null);
@@ -285,15 +271,12 @@ public class Main<CustomDialogActivity> extends Activity {
 			return true;
 			
 		case 2: 
-			 /*
-		     startActivity(new Intent(this, Option.class)); finish();
+			 
+		     startActivity(new Intent(this, DBupdate.class)); finish();
 			  overridePendingTransition(R.anim.bottom_to_top_in,
-			  R.anim.bottom_to_top_out); return true;
-			  */
-				  Toast toast = Toast.makeText(this, "현재 구현중에 있습니다.",
-							Toast.LENGTH_SHORT);
-					toast.show();
-			return true;
+			  R.anim.bottom_to_top_out); 
+			  return true;
+			  
 			
 		case 3:
 			

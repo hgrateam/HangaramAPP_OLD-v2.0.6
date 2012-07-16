@@ -2,13 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#FFFFFF"
     android:orientation="vertical" >
 
     <Spinner
         android:id="@+id/subspin"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/spinhelp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,9 +30,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="수행 반영 비율 (0~100)"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#000000" />
+            android:text="@string/per_Project"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/subpos"
@@ -44,8 +51,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text=""
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#000000" />
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/DT1"
@@ -57,17 +63,17 @@
 
         <TextView
             android:id="@+id/s_nullspace"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
+            android:gravity="center"
             android:text=""
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#000000" />
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
@@ -104,17 +110,6 @@
                 android:layout_gravity="center"
                 android:ems="10"
                 android:inputType="number" />
-
-            <TextView
-                android:id="@+id/spinhelp1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_weight="0.01"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#000000" />
         </LinearLayout>
 
         <Button
@@ -123,7 +118,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:text="계산" />
+            android:text="@string/Calculate" />
     </LinearLayout>
 
 </LinearLayout>

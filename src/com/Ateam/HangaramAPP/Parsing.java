@@ -6,15 +6,25 @@ import java.util.Calendar;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
+import com.Ateam.HangaramAPP.R.string;
+
 import android.app.Activity;
+import android.app.ProgressDialog;
+//import android.content.Intent;
+//import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+//import android.widget.DatePicker.OnDateChangedListener;
 import android.widget.TextView;
 
 public class Parsing extends Activity {
 
+	private ProgressDialog pd;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -22,40 +32,6 @@ public class Parsing extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.parseview);
 		
-/*		pd = new ProgressDialog(this);
-		pd.setMessage("네트워크 연결중입니다");
-		pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-		pd.show();
-
-		// 아래의 Runnable을 돌고 나서 호출됨, pd 캔슬
-		final Handler hd = new Handler() {
-			public void handleMessage(android.os.Message msg) {
-
-				pd.dismiss();
-			}
-		};
-
-		Runnable tt = new Runnable() {
-			public void run() {
-				for (;;) {
-					TTcheck = false;
-					TT();
-					if (TTcheck == true) {
-						break;
-					}
-				}
-
-				 * try { Thread.sleep(3000);
-				 * 
-				 * } catch (InterruptedException e) { // TODO Auto-generated
-				 * catch block e.printStackTrace(); }
-				Message msg = hd.obtainMessage();
-				hd.sendMessage(msg);
-			}
-		};
-
-		new Thread(tt).start();
-		*/
 		TT();
 	}
 
@@ -160,6 +136,12 @@ public class Parsing extends Activity {
 		Mdinner = (TextView) findViewById(R.id.TV2);
   //
 		Log.i("Net", dd2);
+		
+		
+		Mlunch.setText("아직 서버에 해당 날짜 급식정보가 업로드되지 않았습니다.");
+		Mdinner.setText("빠른 기한내로 업로드 하도록 하겠습니다.");
+		Log.i("Net", dd + "일자 급식정보가 없습니다");
+
 		if (getYI(Y, M + 1, D) == 0 || getYI(Y, M + 1, D) == 6) {
 			Mlunch.setText("휴일 입니다");
 			Mdinner.setText("휴일 입니다");
@@ -206,6 +188,7 @@ public class Parsing extends Activity {
 				Mdinner.setText("서버 오류이거나 기기의 네트워크 연결 상태를 확인하십시오.");
 			}
 		}
+		TTcheck = true;
 
 	}
 
@@ -213,6 +196,7 @@ public class Parsing extends Activity {
 	private TextView Mlunch, Mdinner;
 	private String dd;
 	private String[] YI = { "일", "월", "화", "수", "목", "금", "토" };
+	private boolean TTcheck;
 	Calendar calendar = Calendar.getInstance();
 
 }

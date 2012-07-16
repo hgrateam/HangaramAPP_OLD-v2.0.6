@@ -57,8 +57,7 @@ android:layout_marginTop="30dp"
 android:layout_marginBottom="10dp"
 android:layout_marginLeft="10dp"
 android:layout_marginRight="10dp"
-
-android:text="" />
+android:text="@string/NetStat_error" />
 
 <TextView
 android:id="@+id/str_notice2"

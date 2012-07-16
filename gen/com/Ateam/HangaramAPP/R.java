@@ -9,13 +9,10 @@ package com.Ateam.HangaramAPP;
 
 public final class R {
     public static final class anim {
-        public static int bottom_to_top_in=0x7f040000;
-        public static int bottom_to_top_out=0x7f040001;
-        public static int top_to_bottom_in=0x7f040002;
-        public static int top_to_bottom_out=0x7f040003;
-    }
-    public static final class array {
-        public static int subjects=0x7f0c0000;
+        public static final int bottom_to_top_in=0x7f040000;
+        public static final int bottom_to_top_out=0x7f040001;
+        public static final int top_to_bottom_in=0x7f040002;
+        public static final int top_to_bottom_out=0x7f040003;
     }
     public static final class attr {
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -25,7 +22,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int centered=0x7f010005;
+        public static final int centered=0x7f010005;
         /**  Screen edge padding. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -36,7 +33,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int clipPadding=0x7f010010;
+        public static final int clipPadding=0x7f010010;
         /**  Length of the delay to fade the indicator. 
          <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
@@ -45,7 +42,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fadeDelay=0x7f01001b;
+        public static final int fadeDelay=0x7f01001b;
         /**  Length of the indicator fade to transparent. 
          <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
@@ -54,7 +51,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fadeLength=0x7f01001c;
+        public static final int fadeLength=0x7f01001c;
         /**  Whether or not the selected indicator fades. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -63,7 +60,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fades=0x7f01001a;
+        public static final int fades=0x7f01001a;
         /**  Color of the filled circle that represents the current page. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -73,7 +70,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int fillColor=0x7f010009;
+        public static final int fillColor=0x7f010009;
         /**  Color of the footer line and indicator. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -83,7 +80,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int footerColor=0x7f010011;
+        public static final int footerColor=0x7f010011;
         /**  Height of the indicator above the footer line. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -94,7 +91,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int footerIndicatorHeight=0x7f010014;
+        public static final int footerIndicatorHeight=0x7f010014;
         /**  Style of the indicator. Default is triangle. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -107,7 +104,7 @@ containing a value of this type.
 <tr><td><code>underline</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static int footerIndicatorStyle=0x7f010013;
+        public static final int footerIndicatorStyle=0x7f010013;
         /**  Left and right padding of the underline indicator. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -118,7 +115,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int footerIndicatorUnderlinePadding=0x7f010015;
+        public static final int footerIndicatorUnderlinePadding=0x7f010015;
         /**  Height of the footer line. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -129,7 +126,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int footerLineHeight=0x7f010012;
+        public static final int footerLineHeight=0x7f010012;
         /**  Padding between the bottom of the title and the footer. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -140,7 +137,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int footerPadding=0x7f010016;
+        public static final int footerPadding=0x7f010016;
         /**  Width of the gap between each indicator line. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -151,7 +148,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int gapWidth=0x7f01000f;
+        public static final int gapWidth=0x7f01000f;
         /**  Width of each indicator line. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -162,7 +159,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int lineWidth=0x7f01000e;
+        public static final int lineWidth=0x7f01000e;
         /**  Color of the filled circles that represents pages. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -172,7 +169,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int pageColor=0x7f01000a;
+        public static final int pageColor=0x7f01000a;
         /**  Radius of the circles. This is also the spacing between circles. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -183,7 +180,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int radius=0x7f01000b;
+        public static final int radius=0x7f01000b;
         /**  Whether or not the selected item is displayed as bold. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -192,7 +189,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int selectedBold=0x7f010017;
+        public static final int selectedBold=0x7f010017;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -201,7 +198,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int selectedColor=0x7f010006;
+        public static final int selectedColor=0x7f010006;
         /**  Whether or not the selected indicator snaps to the circles. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -210,7 +207,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int snap=0x7f01000c;
+        public static final int snap=0x7f01000c;
         /**  Color of the open circles. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -220,7 +217,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int strokeColor=0x7f01000d;
+        public static final int strokeColor=0x7f01000d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -230,7 +227,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int strokeWidth=0x7f010007;
+        public static final int strokeWidth=0x7f010007;
         /**  Padding between titles when bumping into each other. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -241,7 +238,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int titlePadding=0x7f010018;
+        public static final int titlePadding=0x7f010018;
         /**  Padding between titles and the top of the View. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -252,7 +249,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int topPadding=0x7f010019;
+        public static final int topPadding=0x7f010019;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -261,249 +258,251 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int unselectedColor=0x7f010008;
+        public static final int unselectedColor=0x7f010008;
         /**  Style of the circle indicator. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int vpiCirclePageIndicatorStyle=0x7f010000;
+        public static final int vpiCirclePageIndicatorStyle=0x7f010000;
         /**  Style of the line indicator. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int vpiLinePageIndicatorStyle=0x7f010001;
+        public static final int vpiLinePageIndicatorStyle=0x7f010001;
         /**  Style of the tab indicator's tabs. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int vpiTabPageIndicatorStyle=0x7f010003;
+        public static final int vpiTabPageIndicatorStyle=0x7f010003;
         /**  Style of the title indicator. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int vpiTitlePageIndicatorStyle=0x7f010002;
+        public static final int vpiTitlePageIndicatorStyle=0x7f010002;
         /**  Style of the underline indicator. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static int vpiUnderlinePageIndicatorStyle=0x7f010004;
+        public static final int vpiUnderlinePageIndicatorStyle=0x7f010004;
     }
     public static final class bool {
-        public static int default_circle_indicator_centered=0x7f070000;
-        public static int default_circle_indicator_snap=0x7f070001;
-        public static int default_line_indicator_centered=0x7f070002;
-        public static int default_title_indicator_selected_bold=0x7f070003;
-        public static int default_underline_indicator_fades=0x7f070004;
+        public static final int default_circle_indicator_centered=0x7f070000;
+        public static final int default_circle_indicator_snap=0x7f070001;
+        public static final int default_line_indicator_centered=0x7f070002;
+        public static final int default_title_indicator_selected_bold=0x7f070003;
+        public static final int default_underline_indicator_fades=0x7f070004;
     }
     public static final class color {
-        public static int default_circle_indicator_fill_color=0x7f060008;
-        public static int default_circle_indicator_page_color=0x7f060009;
-        public static int default_circle_indicator_stroke_color=0x7f06000a;
-        public static int default_line_indicator_selected_color=0x7f06000b;
-        public static int default_line_indicator_unselected_color=0x7f06000c;
-        public static int default_title_indicator_footer_color=0x7f06000d;
-        public static int default_title_indicator_selected_color=0x7f06000e;
-        public static int default_title_indicator_text_color=0x7f06000f;
-        public static int default_underline_indicator_selected_color=0x7f060010;
-        public static int text_color_w=0x7f060011;
-        public static int vpi__background_holo_dark=0x7f060000;
-        public static int vpi__background_holo_light=0x7f060001;
-        public static int vpi__bright_foreground_disabled_holo_dark=0x7f060004;
-        public static int vpi__bright_foreground_disabled_holo_light=0x7f060005;
-        public static int vpi__bright_foreground_holo_dark=0x7f060002;
-        public static int vpi__bright_foreground_holo_light=0x7f060003;
-        public static int vpi__bright_foreground_inverse_holo_dark=0x7f060006;
-        public static int vpi__bright_foreground_inverse_holo_light=0x7f060007;
-        public static int vpi__dark_theme=0x7f060012;
-        public static int vpi__light_theme=0x7f060013;
+        public static final int default_circle_indicator_fill_color=0x7f060008;
+        public static final int default_circle_indicator_page_color=0x7f060009;
+        public static final int default_circle_indicator_stroke_color=0x7f06000a;
+        public static final int default_line_indicator_selected_color=0x7f06000b;
+        public static final int default_line_indicator_unselected_color=0x7f06000c;
+        public static final int default_title_indicator_footer_color=0x7f06000d;
+        public static final int default_title_indicator_selected_color=0x7f06000e;
+        public static final int default_title_indicator_text_color=0x7f06000f;
+        public static final int default_underline_indicator_selected_color=0x7f060010;
+        public static final int text_color_w=0x7f060011;
+        public static final int vpi__background_holo_dark=0x7f060000;
+        public static final int vpi__background_holo_light=0x7f060001;
+        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f060004;
+        public static final int vpi__bright_foreground_disabled_holo_light=0x7f060005;
+        public static final int vpi__bright_foreground_holo_dark=0x7f060002;
+        public static final int vpi__bright_foreground_holo_light=0x7f060003;
+        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f060006;
+        public static final int vpi__bright_foreground_inverse_holo_light=0x7f060007;
+        public static final int vpi__dark_theme=0x7f060012;
+        public static final int vpi__light_theme=0x7f060013;
     }
     public static final class dimen {
-        public static int default_circle_indicator_radius=0x7f090000;
-        public static int default_circle_indicator_stroke_width=0x7f090001;
-        public static int default_line_indicator_gap_width=0x7f090003;
-        public static int default_line_indicator_line_width=0x7f090002;
-        public static int default_line_indicator_stroke_width=0x7f090004;
-        public static int default_title_indicator_clip_padding=0x7f090005;
-        public static int default_title_indicator_footer_indicator_height=0x7f090007;
-        public static int default_title_indicator_footer_indicator_underline_padding=0x7f090008;
-        public static int default_title_indicator_footer_line_height=0x7f090006;
-        public static int default_title_indicator_footer_padding=0x7f090009;
-        public static int default_title_indicator_text_size=0x7f09000a;
-        public static int default_title_indicator_title_padding=0x7f09000b;
-        public static int default_title_indicator_top_padding=0x7f09000c;
+        public static final int default_circle_indicator_radius=0x7f090000;
+        public static final int default_circle_indicator_stroke_width=0x7f090001;
+        public static final int default_line_indicator_gap_width=0x7f090003;
+        public static final int default_line_indicator_line_width=0x7f090002;
+        public static final int default_line_indicator_stroke_width=0x7f090004;
+        public static final int default_title_indicator_clip_padding=0x7f090005;
+        public static final int default_title_indicator_footer_indicator_height=0x7f090007;
+        public static final int default_title_indicator_footer_indicator_underline_padding=0x7f090008;
+        public static final int default_title_indicator_footer_line_height=0x7f090006;
+        public static final int default_title_indicator_footer_padding=0x7f090009;
+        public static final int default_title_indicator_text_size=0x7f09000a;
+        public static final int default_title_indicator_title_padding=0x7f09000b;
+        public static final int default_title_indicator_top_padding=0x7f09000c;
     }
     public static final class drawable {
-        public static int ateam_logo_by=0x7f020000;
-        public static int briefcase_w=0x7f020001;
-        public static int bubbles=0x7f020002;
-        public static int calc_w=0x7f020003;
-        public static int communication_s=0x7f020004;
-        public static int encyclopedia_w=0x7f020005;
-        public static int facebook_w=0x7f020006;
-        public static int fantasy_bgr=0x7f020007;
-        public static int flower=0x7f020008;
-        public static int hgrapp=0x7f020009;
-        public static int ic_launcher=0x7f02000a;
-        public static int image_02_lauren_cho=0x7f02000b;
-        public static int intro=0x7f02000c;
-        public static int iron_style_bgr=0x7f02000d;
-        public static int library_w=0x7f02000e;
-        public static int meal_w=0x7f02000f;
-        public static int metroui_btn_blue=0x7f020010;
-        public static int n2_metroui_btn_blue=0x7f020011;
-        public static int n_metroui_btn_black=0x7f020012;
-        public static int n_metroui_btn_purple=0x7f020013;
-        public static int n_metroui_btn_yellow=0x7f020014;
-        public static int n_wooden_wall=0x7f020015;
-        public static int pen_w=0x7f020016;
-        public static int school_w=0x7f020017;
-        public static int sqr_f=0x7f020018;
-        public static int squ=0x7f020019;
-        public static int squ_1=0x7f02001a;
-        public static int squ_notice=0x7f02001b;
-        public static int trans_frame_btn2=0x7f02001c;
-        public static int trans_frame_btn_l=0x7f02001d;
-        public static int vpi__tab_indicator=0x7f02001e;
-        public static int vpi__tab_selected_focused_holo=0x7f02001f;
-        public static int vpi__tab_selected_holo=0x7f020020;
-        public static int vpi__tab_selected_pressed_holo=0x7f020021;
-        public static int vpi__tab_unselected_focused_holo=0x7f020022;
-        public static int vpi__tab_unselected_holo=0x7f020023;
-        public static int vpi__tab_unselected_pressed_holo=0x7f020024;
+        public static final int ateam_logo_by=0x7f020000;
+        public static final int blue_wallpaper=0x7f020001;
+        public static final int briefcase_w=0x7f020002;
+        public static final int bubbles=0x7f020003;
+        public static final int calc_w=0x7f020004;
+        public static final int communication=0x7f020005;
+        public static final int communication_s=0x7f020006;
+        public static final int encyclopedia_w=0x7f020007;
+        public static final int facebook_w=0x7f020008;
+        public static final int fantasy_bgr=0x7f020009;
+        public static final int flower=0x7f02000a;
+        public static final int hgrapp=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int image_02_lauren_cho=0x7f02000d;
+        public static final int intro=0x7f02000e;
+        public static final int iron_style_bgr=0x7f02000f;
+        public static final int library_w=0x7f020010;
+        public static final int meal_w=0x7f020011;
+        public static final int metroui_btn_blue=0x7f020012;
+        public static final int n2_metroui_btn_blue=0x7f020013;
+        public static final int n_metroui_btn_black=0x7f020014;
+        public static final int n_metroui_btn_purple=0x7f020015;
+        public static final int n_metroui_btn_yellow=0x7f020016;
+        public static final int n_wooden_wall=0x7f020017;
+        public static final int pen_w=0x7f020018;
+        public static final int school_w=0x7f020019;
+        public static final int sqr_f=0x7f02001a;
+        public static final int squ=0x7f02001b;
+        public static final int squ_1=0x7f02001c;
+        public static final int squ_notice=0x7f02001d;
+        public static final int the_war_god_ku=0x7f02001e;
+        public static final int trans_frame_btn=0x7f02001f;
+        public static final int trans_frame_btn2=0x7f020020;
+        public static final int trans_frame_btn_l=0x7f020021;
+        public static final int vpi__tab_indicator=0x7f020022;
+        public static final int vpi__tab_selected_focused_holo=0x7f020023;
+        public static final int vpi__tab_selected_holo=0x7f020024;
+        public static final int vpi__tab_selected_pressed_holo=0x7f020025;
+        public static final int vpi__tab_unselected_focused_holo=0x7f020026;
+        public static final int vpi__tab_unselected_holo=0x7f020027;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f020028;
     }
     public static final class id {
-        public static int Ateam_logo=0x7f050012;
-        public static int CPIndicator=0x7f05003d;
-        public static int DT1=0x7f050008;
-        public static int ET1=0x7f05000a;
-        public static int ET2=0x7f05000b;
-        public static int ET3=0x7f05000c;
-        public static int ET4=0x7f05000d;
-        public static int HGR_15th=0x7f05002f;
-        public static int Next_class_indicator=0x7f050019;
-        public static int Notice_indicater=0x7f05001a;
-        public static int TV1=0x7f05001f;
-        public static int TV2=0x7f050034;
-        public static int buttonlayout=0x7f050038;
-        public static int dateview=0x7f050037;
-        public static int gocalc=0x7f05000f;
-        public static int l15th=0x7f05002e;
-        public static int las=0x7f05002a;
-        public static int lcalc=0x7f050030;
-        public static int lhgr=0x7f050024;
-        public static int listView1=0x7f05003b;
-        public static int llib=0x7f050028;
-        public static int lmeal=0x7f050026;
-        public static int lprin=0x7f050022;
-        public static int lwiki=0x7f05002c;
-        public static int menulayout=0x7f050033;
-        public static int mod=0x7f050039;
-        public static int none=0x7f050000;
-        public static int noticebutton=0x7f05001d;
-        public static int noticelayout=0x7f050032;
-        public static int noticeview=0x7f05001b;
-        public static int pager=0x7f05003c;
-        public static int pod=0x7f05003a;
-        public static int s_nullspace=0x7f050009;
-        public static int s_nullspace2=0x7f050007;
-        public static int scoreview=0x7f050004;
-        public static int scrollView1=0x7f050010;
-        public static int spinhelp1=0x7f05000e;
-        public static int spinhelp2=0x7f050005;
-        public static int str_notice2=0x7f05001c;
-        public static int strdinner=0x7f050036;
-        public static int strlunch=0x7f050035;
-        public static int subpos=0x7f050006;
-        public static int subspin=0x7f050003;
-        public static int textView1=0x7f050011;
-        public static int textView2=0x7f050016;
-        public static int textView3=0x7f050015;
-        public static int textView4=0x7f050014;
-        public static int textView5=0x7f050017;
-        public static int textView6=0x7f050018;
-        public static int textView7=0x7f050013;
-        public static int toCalc=0x7f050031;
-        public static int toHGR=0x7f050025;
-        public static int toHGRency=0x7f05002d;
-        public static int toHGRlib=0x7f050029;
-        public static int toPrincipleWall=0x7f050023;
-        public static int toas=0x7f05002b;
-        public static int todayMeal=0x7f050027;
-        public static int triangle=0x7f050001;
-        public static int underline=0x7f050002;
-        public static int widget0=0x7f05001e;
-        public static int widget27=0x7f050020;
-        public static int widget30=0x7f050021;
+        public static final int Ateam_logo=0x7f050015;
+        public static final int CPIndicator=0x7f05003f;
+        public static final int DT1=0x7f050009;
+        public static final int ET1=0x7f05000b;
+        public static final int ET2=0x7f05000c;
+        public static final int ET3=0x7f05000d;
+        public static final int ET4=0x7f05000e;
+        public static final int HGR_15th=0x7f050032;
+        public static final int Next_class_indicator=0x7f05001c;
+        public static final int Notice_indicater=0x7f05001d;
+        public static final int TV1=0x7f050022;
+        public static final int TV2=0x7f050038;
+        public static final int buttonlayout=0x7f05003b;
+        public static final int dateview=0x7f050037;
+        public static final int gocalc=0x7f05000f;
+        public static final int l15th=0x7f050031;
+        public static final int las=0x7f05002d;
+        public static final int lcalc=0x7f050033;
+        public static final int lhgr=0x7f050027;
+        public static final int llib=0x7f05002b;
+        public static final int lmeal=0x7f050029;
+        public static final int lprin=0x7f050025;
+        public static final int lwiki=0x7f05002f;
+        public static final int menulayout=0x7f050036;
+        public static final int mod=0x7f05003c;
+        public static final int none=0x7f050000;
+        public static final int noticebutton=0x7f050020;
+        public static final int noticelayout=0x7f050035;
+        public static final int noticeview=0x7f05001e;
+        public static final int pager=0x7f05003e;
+        public static final int pod=0x7f05003d;
+        public static final int s_nullspace=0x7f05000a;
+        public static final int s_nullspace2=0x7f050008;
+        public static final int scoreview=0x7f050005;
+        public static final int scrollView1=0x7f050013;
+        public static final int spinhelp1=0x7f050004;
+        public static final int spinhelp2=0x7f050006;
+        public static final int str_notice2=0x7f05001f;
+        public static final int strdinner=0x7f05003a;
+        public static final int strlunch=0x7f050039;
+        public static final int subpos=0x7f050007;
+        public static final int subspin=0x7f050003;
+        public static final int textView1=0x7f050014;
+        public static final int textView2=0x7f050019;
+        public static final int textView3=0x7f050018;
+        public static final int textView4=0x7f050017;
+        public static final int textView5=0x7f05001a;
+        public static final int textView6=0x7f05001b;
+        public static final int textView7=0x7f050016;
+        public static final int toCalc=0x7f050034;
+        public static final int toHGR=0x7f050028;
+        public static final int toHGRency=0x7f050030;
+        public static final int toHGRlib=0x7f05002c;
+        public static final int toPrincipleWall=0x7f050026;
+        public static final int toas=0x7f05002e;
+        public static final int todayMeal=0x7f05002a;
+        public static final int triangle=0x7f050001;
+        public static final int underline=0x7f050002;
+        public static final int upbot1=0x7f050012;
+        public static final int updatebot=0x7f050010;
+        public static final int uptv1=0x7f050011;
+        public static final int widget0=0x7f050021;
+        public static final int widget27=0x7f050023;
+        public static final int widget30=0x7f050024;
     }
     public static final class integer {
-        public static int default_circle_indicator_orientation=0x7f080000;
-        public static int default_title_indicator_footer_indicator_style=0x7f080001;
-        public static int default_underline_indicator_fade_delay=0x7f080002;
-        public static int default_underline_indicator_fade_length=0x7f080003;
+        public static final int default_circle_indicator_orientation=0x7f080000;
+        public static final int default_title_indicator_footer_indicator_style=0x7f080001;
+        public static final int default_underline_indicator_fade_delay=0x7f080002;
+        public static final int default_underline_indicator_fade_length=0x7f080003;
     }
     public static final class layout {
-        public static int calc=0x7f030000;
-        public static int calc2=0x7f030001;
-        public static int devteam_info=0x7f030002;
-        public static int intro=0x7f030003;
-        public static int main=0x7f030004;
-        public static int menu=0x7f030005;
-        public static int metro_view_menu=0x7f030006;
-        public static int metro_view_menu2=0x7f030007;
-        public static int parseview=0x7f030008;
-        public static int style=0x7f030009;
-        public static int styles=0x7f03000a;
-        public static int teachers_info=0x7f03000b;
-        public static int text_color_w=0x7f03000c;
-        public static int viewpager_main=0x7f03000d;
+        public static final int calc=0x7f030000;
+        public static final int dbupdate=0x7f030001;
+        public static final int devteam_info=0x7f030002;
+        public static final int intro=0x7f030003;
+        public static final int main=0x7f030004;
+        public static final int menu=0x7f030005;
+        public static final int metro_view_menu=0x7f030006;
+        public static final int metro_view_menu2=0x7f030007;
+        public static final int parseview=0x7f030008;
+        public static final int viewpager_main=0x7f030009;
     }
     public static final class string {
-        public static int Ateam_home=0x7f0b0003;
-        public static int Ateam_info=0x7f0b0002;
-        public static int Ateam_logo=0x7f0b000f;
-        public static int Calc=0x7f0b0021;
-        public static int Calculate=0x7f0b0027;
-        public static int Crew1_Ateam=0x7f0b0006;
-        public static int Crew2_Ateam=0x7f0b0007;
-        public static int Crew3_Ateam=0x7f0b0008;
-        public static int Crew_Leader_Ateam=0x7f0b0004;
-        public static int Crew_Secondary_Leader_Ateam=0x7f0b0005;
-        public static int DigitalClock=0x7f0b0009;
-        public static int HGR_Community=0x7f0b0010;
-        public static int NetStat_error=0x7f0b0025;
-        public static int Next_class=0x7f0b000b;
-        public static int Now_constructing=0x7f0b000a;
-        public static int app_name=0x7f0b0001;
-        public static int app_ver=0x7f0b0000;
-        public static int calc_w=0x7f0b0022;
-        public static int error=0x7f0b001b;
-        public static int facebook_w=0x7f0b0014;
-        public static int inquire_btn_select_date=0x7f0b000e;
-        public static int inquire_meals=0x7f0b000d;
-        public static int library_w=0x7f0b0019;
-        public static int meal_w=0x7f0b0015;
-        public static int nDAY=0x7f0b001d;
-        public static int pDAY=0x7f0b001e;
-        public static int pen_w=0x7f0b0013;
-        public static int per_Project=0x7f0b0026;
-        public static int str_dinner=0x7f0b0018;
-        public static int str_lunch=0x7f0b0017;
-        public static int str_notice=0x7f0b001c;
-        public static int str_plus=0x7f0b0020;
-        public static int str_wait=0x7f0b001f;
-        public static int toAS=0x7f0b0024;
-        public static int toCalc=0x7f0b0023;
-        public static int toHGR=0x7f0b000c;
-        public static int toHGRency=0x7f0b0016;
-        public static int toHGRlib=0x7f0b001a;
-        public static int toPrincipleWall=0x7f0b0011;
-        public static int todayMeal=0x7f0b0012;
+        public static final int Ateam_home=0x7f0b0003;
+        public static final int Ateam_info=0x7f0b0002;
+        public static final int Ateam_logo=0x7f0b000f;
+        public static final int Calc=0x7f0b0021;
+        public static final int Calculate=0x7f0b0027;
+        public static final int Crew1_Ateam=0x7f0b0006;
+        public static final int Crew2_Ateam=0x7f0b0007;
+        public static final int Crew3_Ateam=0x7f0b0008;
+        public static final int Crew_Leader_Ateam=0x7f0b0004;
+        public static final int Crew_Secondary_Leader_Ateam=0x7f0b0005;
+        public static final int DigitalClock=0x7f0b0009;
+        public static final int HGR_Community=0x7f0b0010;
+        public static final int NetStat_error=0x7f0b0025;
+        public static final int Next_class=0x7f0b000b;
+        public static final int Now_constructing=0x7f0b000a;
+        public static final int app_name=0x7f0b0001;
+        public static final int app_ver=0x7f0b0000;
+        public static final int calc_w=0x7f0b0022;
+        public static final int error=0x7f0b001b;
+        public static final int facebook_w=0x7f0b0014;
+        public static final int inquire_btn_select_date=0x7f0b000e;
+        public static final int inquire_meals=0x7f0b000d;
+        public static final int library_w=0x7f0b0019;
+        public static final int meal_w=0x7f0b0015;
+        public static final int nDAY=0x7f0b001d;
+        public static final int pDAY=0x7f0b001e;
+        public static final int pen_w=0x7f0b0013;
+        public static final int per_Project=0x7f0b0026;
+        public static final int str_dinner=0x7f0b0018;
+        public static final int str_lunch=0x7f0b0017;
+        public static final int str_notice=0x7f0b001c;
+        public static final int str_plus=0x7f0b0020;
+        public static final int str_wait=0x7f0b001f;
+        public static final int toAS=0x7f0b0024;
+        public static final int toCalc=0x7f0b0023;
+        public static final int toHGR=0x7f0b000c;
+        public static final int toHGRency=0x7f0b0016;
+        public static final int toHGRlib=0x7f0b001a;
+        public static final int toPrincipleWall=0x7f0b0011;
+        public static final int todayMeal=0x7f0b0012;
     }
     public static final class style {
-        public static int TextAppearance_TabPageIndicator=0x7f0a0003;
-        public static int Theme_PageIndicatorDefaults=0x7f0a0000;
-        public static int Widget=0x7f0a0001;
-        public static int Widget_TabPageIndicator=0x7f0a0002;
+        public static final int TextAppearance_TabPageIndicator=0x7f0a0003;
+        public static final int Theme_PageIndicatorDefaults=0x7f0a0000;
+        public static final int Widget=0x7f0a0001;
+        public static final int Widget_TabPageIndicator=0x7f0a0002;
     }
     public static final class styleable {
         /** Attributes that can be used with a CirclePageIndicator.

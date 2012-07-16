@@ -33,10 +33,13 @@
             android:name="Main"
            	android:screenOrientation= "portrait"></activity>
         <activity 
-            android:name="chk_UPDATE"
+            android:name="Chk_UPDATE"
             android:theme="@android:style/Theme.Translucent"
             android:screenOrientation= "portrait"></activity>
-        <activity android:name="Calc"></activity>
+        <activity android:name="Loading_Parsing"></activity>
+        <activity android:name="Calc"></activity><activity android:name="DBupdate"></activity>
+        
+        <activity android:name="DbAdapter"></activity>
     </application>
 
 </manifest>

@@ -17,6 +17,15 @@
         android:layout_marginRight="20dp"
         android:layout_gravity="top|center"
         android:gravity="center" >
+        
+        <TextView
+            android:id="@+id/dateview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:text="@string/error"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
 
     </FrameLayout>
     
@@ -87,16 +96,7 @@
         android:textColor="#000000" />
 
 
-    <TextView
-        android:id="@+id/dateview"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@+id/menulayout"
-        android:layout_alignParentLeft="true"
-        android:gravity="center"
-        android:text="@string/error"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000" />
+    
     <LinearLayout
         android:id="@+id/buttonlayout"
         android:layout_width="wrap_content"

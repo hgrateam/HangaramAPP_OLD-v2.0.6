@@ -10,31 +10,37 @@ import android.util.Log;
 
 
 
-//public void onFinish();
+//public void onFinish();`
 //public void onTick(long millisUntilFinished);
 
 public class Intro extends Activity {
 
 	/** Called when the activity is first created. */
 
+	Handler handler;
 	
-	@Override
+	
 	public void onCreate(Bundle savedInstanceState) {
 	   super.onCreate(savedInstanceState);
        setContentView(R.layout.intro);
        Log.i("Net","Intro ¶ä¤»");
-
-       
-       
-       Handler handler = new Handler() {
-   	   public void handleMessage(Message message){
-    		   super.handleMessage(message);
-    		   startActivity(new Intent (Intro.this, Main.class));
-    		   finish();
-    	   }
-    	   
-       };
-       handler.sendEmptyMessageDelayed(0, 1200);
+       handler = new Handler();
+       handler.postDelayed(irun, 4000);
+	}
+	
+	Runnable irun = new Runnable(){
+	 	   public void run(){
+	 		   Intent i = new Intent (Intro.this, Main.class);
+	 		   startActivity(i);
+	 		   finish();
+	 		   
+	 	   }
+	    };
+	@Override
+	public void onBackPressed(){
+		super.onBackPressed();
+		handler.removeCallbacks(irun);
+		
 	}
 }
        
