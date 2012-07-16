@@ -1,0 +1,98 @@
+package com.ex.HangaramAPP;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.v4.view.PagerAdapter;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import com.ex.HangaramAPP.ViewPager_Main;
+
+
+public class Main extends Activity {
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+	   super.onCreate(savedInstanceState);
+       setContentView(R.layout.main);
+       
+	    Button pass;
+	    pass = (Button) findViewById(R.id.today_meal);
+	    pass.setOnClickListener(new Button.OnClickListener(){
+	    	public void onClick(View v){
+				startActivity(new Intent(Main.this, Parsing.class));
+	    	}
+	    });
+	    
+	    Button pass1;
+	    pass1 = (Button) findViewById(R.id.facebook_hgr15th);
+	    pass1.setOnClickListener(new Button.OnClickListener(){
+	    	public void onClick(View v){
+	    		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.facebook.com/groups/hangaram15th/")));
+	    	}
+	    	
+	    });
+	    
+	    Button pass2;
+	    pass2 = (Button) findViewById(R.id.principle_wall);
+	    pass2.setOnClickListener(new Button.OnClickListener(){
+	    	public void onClick(View v){
+	    		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/sanjinii")));
+	    	}
+	    	
+	    });
+	    
+	    
+	    Button pass3;
+	    pass3 = (Button) findViewById(R.id.toHGR);
+	    pass3.setOnClickListener(new Button.OnClickListener(){
+	    	public void onClick(View v){
+	    		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.hangaram.hs.kr")));
+	    	}
+	    	
+	    });
+	    
+	}
+	//여기서부터 옵션메뉴 관련 내용
+	
+	@Override
+	   	public boolean onCreateOptionsMenu(Menu menu) {
+			createMenu(menu);
+			return super.onCreateOptionsMenu(menu);
+		}
+
+	
+
+	@Override
+		public boolean onOptionsItemSelected(MenuItem item){
+		return applyMenuChoice(item) || super.onOptionsItemSelected(item);
+		
+	}
+		
+	
+	private void createMenu (Menu menu) {
+		menu.add(0, 1, 0, "개발팀 정보") ;
+	}
+
+	 private boolean applyMenuChoice (MenuItem item) {
+		switch (item.getItemId()) {
+		case 1:
+				startActivity(new Intent(this, Devteam_info.class));
+				finish();
+				overridePendingTransition(R.anim.bottom_to_top_in, R.anim.bottom_to_top_out);
+				return true;
+	}
+		return false;
+	}
+
+}
+
+	
+
+//http://underclub.tistory.com/310    -setIntent
+//http://blog.naver.com/djship?Redirect=Log&logNo=80121431399    -참고한 소스코드
+	
+	

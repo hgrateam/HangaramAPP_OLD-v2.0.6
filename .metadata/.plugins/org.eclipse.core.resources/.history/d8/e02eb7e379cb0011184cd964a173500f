@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <style name="Theme.HangaramAPP" parent="Theme.Sherlock.Light.DarkActionBar">
+            
+        </style>   
+
+        <style name="StyledIndicators" parent="Theme.BataApp">
+            <item name="vpiTitlePageIndicatorStyle">@style/Widget.TitlePageIndicator</item>
+            <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+            <item name="vpiTabTextStyle">@style/Widget.TabPageIndicator.Text</item>
+        </style>

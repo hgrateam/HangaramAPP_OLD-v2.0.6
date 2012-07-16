@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="406dp"
+    android:layout_x="1dp"
+    android:layout_y="76dp"
+    android:background="@drawable/squ"
+    android:foregroundGravity="center" >
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="'조회하기' 버튼을 누른 후, 날짜를 선택해 주십시오"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+</FrameLayout>
+
+<Button
+    android:id="@+id/getdate"
+    android:layout_width="234dp"
+    android:layout_height="wrap_content"
+    android:layout_x="42dp"
+    android:layout_y="15dp"
+    android:text="조회하기" />
+
+</AbsoluteLayout>

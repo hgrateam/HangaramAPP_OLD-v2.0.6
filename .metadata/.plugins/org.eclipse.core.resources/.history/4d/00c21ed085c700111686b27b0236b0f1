@@ -1,0 +1,20 @@
+package com.ex.HangaramAPP;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.view.ViewPager;
+
+public class ViewPager_Main extends Activity {
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.viewpager_main);
+		
+		mPager = (ViewPager)findViewById(R.id.pager);
+		
+	}
+	
+	
+
+}

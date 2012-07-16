@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <style name="Theme.HangaramAPP" parent="com.viewpagerindicator">
+            <item name="vpiTitlePageIndicatorStyle">@style/Widget.TitlePageIndicator</item>
+            <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+            <item name="vpiTabTextStyle">@style/Widget.TabPageIndicator.Text</item>
+        </style>   
+
+     

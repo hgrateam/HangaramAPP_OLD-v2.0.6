@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/fantasy_bgr"
+android:orientation="vertical" >
+
+<FrameLayout
+android:id="@+id/Next_class_indicator"
+android:layout_width="fill_parent"
+android:layout_height="82dp"
+android:layout_gravity="center"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:layout_marginTop="10dp"
+android:background="@drawable/iron_style_bgr" >
+
+<TextView
+android:id="@+id/textView4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|center"
+android:layout_marginBottom="15dp"
+android:text="@string/Now_constructing" />
+
+<TextView
+android:id="@+id/textView3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|top"
+android:layout_margin="10dp"
+android:text="@string/Next_class"
+android:textAppearance="?android:attr/textAppearanceLarge"
+android:textSize="20dp" />
+
+</FrameLayout>
+
+
+
+<FrameLayout
+android:id="@+id/Notice_indicater"
+android:layout_width="fill_parent"
+android:layout_height="82dp"
+android:layout_margin="10dp"
+android:layout_gravity="center"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:background="@drawable/iron_style_bgr" >
+
+<TextView
+android:id="@+id/noticeview"
+android:layout_width="200dp"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|left"
+android:layout_marginTop="30dp"
+android:layout_marginBottom="10dp"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+
+android:text="네트워크 상태를 확인하여 주십시오." />
+
+<TextView
+android:id="@+id/str_notice2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|top"
+android:layout_margin="10dp"
+android:text="@string/str_notice"
+android:textAppearance="?android:attr/textAppearanceLarge"
+android:textSize="20dp" />
+
+<Button
+    android:id="@+id/noticebutton"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_gravity="right|center"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:background="#536977"
+    android:textColor="#FFFFFF"
+    android:text="@string/str_plus"
+    android:textSize="30dp"/>
+
+</FrameLayout>
+
+</LinearLayout>

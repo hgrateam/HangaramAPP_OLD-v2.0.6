@@ -1,0 +1,301 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Program Error: invalid structured document event",1342029500772
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029500777
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029504577
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029505737
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029505792
+closed,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029505793
+error,log,,,"Program Error: invalid structured document event",1342029505824
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1342029505828
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029508508
+opened,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029509050
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029509171
+error,log,,,"Program Error: invalid structured document event",1342029511893
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029511898
+error,log,,,"Program Error: invalid structured document event",1342029513990
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029513994
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029517615
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029518672
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029518734
+closed,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029518735
+error,log,,,"Program Error: invalid structured document event",1342029518764
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1342029518767
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029519807
+opened,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029520155
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029520275
+error,log,,,"Program Error: invalid structured document event",1342029522042
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029522047
+error,log,,,"Overlapping start in StyleRange 314:1",1342029524022
+error,log,,,"Program Error: invalid structured document event",1342029524032
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029524035
+error,log,,,"Overlapping start in StyleRange 314:1",1342029526085
+error,log,,,"Overlapping start in StyleRange 315:1",1342029526090
+error,log,,,"Program Error: invalid structured document event",1342029526096
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029526101
+error,log,,,"Overlapping start in StyleRange 314:1",1342029526470
+error,log,,,"Overlapping start in StyleRange 315:2",1342029526474
+error,log,,,"Program Error: invalid structured document event",1342029526483
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029526487
+error,log,,,"Overlapping start in StyleRange 314:1",1342029526849
+error,log,,,"Overlapping start in StyleRange 315:3",1342029526852
+error,log,,,"Program Error: invalid structured document event",1342029526856
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029526860
+error,log,,,"Overlapping start in StyleRange 314:1",1342029531379
+error,log,,,"Overlapping start in StyleRange 315:11",1342029531382
+error,log,,,"Program Error: invalid structured document event",1342029531386
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029531390
+error,log,,,"Overlapping start in StyleRange 314:1",1342029531566
+error,log,,,"Overlapping start in StyleRange 315:11",1342029531569
+error,log,,,"Program Error: invalid structured document event",1342029531576
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029531581
+error,log,,,"Overlapping start in StyleRange 314:1",1342029531696
+error,log,,,"Program Error: invalid structured document event",1342029531702
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029531707
+error,log,,,"Program Error: invalid structured document event",1342029531840
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029531843
+error,log,,,"Program Error: invalid structured document event",1342029532311
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029532315
+error,log,,,"Program Error: invalid structured document event",1342029533013
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029533018
+error,log,,,"Program Error: invalid structured document event",1342029533394
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029533397
+error,log,,,"Program Error: invalid structured document event",1342029533691
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029533694
+error,log,,,"Program Error: invalid structured document event",1342029534056
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029534060
+error,log,,,"Program Error: invalid structured document event",1342029537848
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029537853
+error,log,,,"Program Error: invalid structured document event",1342029538008
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029538012
+error,log,,,"Program Error: invalid structured document event",1342029538165
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029538168
+error,log,,,"Program Error: invalid structured document event",1342029538378
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029538383
+error,log,,,"Program Error: invalid structured document event",1342029538668
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029538672
+error,log,,,"Program Error: invalid structured document event",1342029539364
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029539367
+error,log,,,"Program Error: invalid structured document event",1342029540001
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029540006
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029540009
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029541956
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029542930
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029542982
+closed,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029542982
+error,log,,,"Program Error: invalid structured document event",1342029543015
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1342029543018
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029546492
+opened,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029546931
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029547052
+error,log,,,"Program Error: invalid structured document event",1342029554252
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029554257
+error,log,,,"metro_view_menu2.xml: ScrollView can host only one direct child",1342029556282
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029563185
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029564145
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029564242
+closed,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029564242
+error,log,,,"Program Error: invalid structured document event",1342029564283
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1342029564287
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029565771
+error,log,,,"metro_view_menu2.xml: ScrollView can host only one direct child",1342029566279
+opened,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029566298
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029566366
+error,log,,,"Program Error: invalid structured document event",1342029583202
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029583207
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029586706
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029587214
+error,log,,,"Program Error: invalid structured document event",1342029587250
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029587253
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1342029589718
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1342029590845
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029592765
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029602663
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029603814
+error,log,,,"Program Error: invalid structured document event",1342029610932
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029610935
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1342029610937
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029615350
+closed,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029615351
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029616996
+opened,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029617348
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029617465
+error,log,,,"Program Error: invalid structured document event",1342029622854
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029622857
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1342029622860
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029628021
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029633131
+error,log,,,"Internal Error",1342029638713
+error,log,,,"Problems encountered while deleting resources.",1342029638716
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029641369
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029641392
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029641675
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029643806
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029650365
+error,log,,,"Internal Error",1342029651886
+error,log,,,"Problems encountered while deleting resources.",1342029651889
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029652896
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029652918
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029656150
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029657411
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029657423
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029662362
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029677970
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1342029678002
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029678396
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029692521
+error,log,,,"Program Error: invalid structured document event",1342029692600
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1342029692604
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029692621
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029692652
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029696139
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029701078
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029701224
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029701885
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029702042
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029702510
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029702629
+error,log,,,"Program Error: invalid structured document event",1342029704045
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029704049
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029708497
+closed,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029708497
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029709946
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029714226
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029714338
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1342029714669
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029716954
+error,log,,,"metro_view_menu2.xml: ScrollView can host only one direct child",1342029718608
+opened,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029718618
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029718685
+error,log,,,"Program Error: invalid structured document event",1342029724677
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029724681
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029724682
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1342029727451
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1342029727986
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029729248
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1342029733516
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029734648
+error,log,,,"Internal Error",1342029735862
+error,log,,,"Problems encountered while deleting resources.",1342029735864
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029736950
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029736971
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029739507
+error,log,,,"Internal Error",1342029740593
+error,log,,,"Problems encountered while deleting resources.",1342029740596
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029741096
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029741120
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029741734
+error,log,,,"Internal Error",1342029741987
+error,log,,,"Problems encountered while deleting resources.",1342029741990
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029742434
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029742455
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029742790
+error,log,,,"Internal Error",1342029742922
+error,log,,,"Problems encountered while deleting resources.",1342029742925
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029743344
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029743364
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029743685
+error,log,,,"Internal Error",1342029743900
+error,log,,,"Problems encountered while deleting resources.",1342029743903
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029744295
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029744320
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029744602
+error,log,,,"Internal Error",1342029744804
+error,log,,,"Problems encountered while deleting resources.",1342029744807
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029745053
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029745075
+activated,editor,com.android.ide.eclipse.adt,20.0.0.v201206242043-391819,"com.android.ide.eclipse.editors.CommonXmlEditor",1342029745269
+error,log,,,"0",1342029745442
+error,log,,,"0",1342029745451
+error,log,,,"Program Error: invalid structured document event",1342029745454
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.sse.core"".",1342029745457
+failed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1342029745458
+error,log,,,"""Delete"" did not complete normally.  Please see the log for more information.",1342029745461
+error,log,,,"6",1342029745464
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029745480
+error,log,,,"Unhandled event loop exception",1342029745521
+error,log,,,"Unhandled event loop exception",1342029745542
+error,log,,,"Unhandled event loop exception",1342029745549
+error,log,,,"Unhandled event loop exception",1342029745555
+error,log,,,"Unhandled event loop exception",1342029745562
+error,log,,,"Unhandled event loop exception",1342029745567
+error,log,,,"Unhandled event loop exception",1342029745573
+error,log,,,"Unhandled event loop exception",1342029745585
+error,log,,,"Unhandled event loop exception",1342029745593
+error,log,,,"Unhandled event loop exception",1342029745600
+error,log,,,"Unhandled event loop exception",1342029745605
+error,log,,,"Unhandled event loop exception",1342029745612
+error,log,,,"Unhandled event loop exception",1342029745619
+error,log,,,"Unhandled event loop exception",1342029745625
+error,log,,,"Unhandled event loop exception",1342029745632
+error,log,,,"Unhandled event loop exception",1342029745638
+error,log,,,"Unhandled event loop exception",1342029745644
+error,log,,,"Unhandled event loop exception",1342029745651
+error,log,,,"Unhandled event loop exception",1342029745657
+error,log,,,"Unhandled event loop exception",1342029745663
+error,log,,,"Unhandled event loop exception",1342029745670
+error,log,,,"Unhandled event loop exception",1342029745677
+error,log,,,"Unhandled event loop exception",1342029745683
+error,log,,,"Unhandled event loop exception",1342029745690
+error,log,,,"Unhandled event loop exception",1342029745696
+error,log,,,"Unhandled event loop exception",1342029745703
+error,log,,,"Unhandled event loop exception",1342029745709
+error,log,,,"Unhandled event loop exception",1342029745717
+error,log,,,"Unhandled event loop exception",1342029745728
+error,log,,,"Unhandled event loop exception",1342029745735
+error,log,,,"Unhandled event loop exception",1342029745742
+error,log,,,"Unhandled event loop exception",1342029745749
+error,log,,,"Unhandled event loop exception",1342029745755
+error,log,,,"Unhandled event loop exception",1342029745762
+error,log,,,"Unhandled event loop exception",1342029745769
+error,log,,,"Unhandled event loop exception",1342029745777
+error,log,,,"Unhandled event loop exception",1342029745784
+error,log,,,"Unhandled event loop exception",1342029745794
+error,log,,,"Unhandled event loop exception",1342029745801
+error,log,,,"Unhandled event loop exception",1342029745808
+error,log,,,"Unhandled event loop exception",1342029745815
+error,log,,,"Unhandled event loop exception",1342029745821
+error,log,,,"Unhandled event loop exception",1342029745828
+error,log,,,"Unhandled event loop exception",1342029745835
+error,log,,,"Unhandled event loop exception",1342029745912
+error,log,,,"Unhandled event loop exception",1342029745922
+error,log,,,"Unhandled event loop exception",1342029745933
+error,log,,,"Unhandled event loop exception",1342029745940
+error,log,,,"Unhandled event loop exception",1342029745948
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1342029745998
+error,log,,,"Unhandled event loop exception",1342029746032
+error,log,,,"Unhandled event loop exception",1342029746039
+error,log,,,"Unhandled event loop exception",1342029746045
+error,log,,,"Unhandled event loop exception",1342029746052
+error,log,,,"Unhandled event loop exception",1342029746059
+error,log,,,"Unhandled event loop exception",1342029746066
+error,log,,,"Unhandled event loop exception",1342029746072
+error,log,,,"Unhandled event loop exception",1342029746084
+error,log,,,"Unhandled event loop exception",1342029746091
+error,log,,,"Unhandled event loop exception",1342029746099
+error,log,,,"Unhandled event loop exception",1342029746106
+error,log,,,"Unhandled event loop exception",1342029746112
+error,log,,,"Unhandled event loop exception",1342029746120
+error,log,,,"Unhandled event loop exception",1342029746127
+error,log,,,"Unhandled event loop exception",1342029746152
+error,log,,,"Unhandled event loop exception",1342029746160
+error,log,,,"Unhandled event loop exception",1342029746170
+error,log,,,"Unhandled event loop exception",1342029746176
+error,log,,,"Unhandled event loop exception",1342029746184
+error,log,,,"Unhandled event loop exception",1342029746192
+error,log,,,"Unhandled event loop exception",1342029746200
+error,log,,,"Unhandled event loop exception",1342029746208
+error,log,,,"Unhandled event loop exception",1342029746217
+error,log,,,"Unhandled event loop exception",1342029746225
+error,log,,,"Unhandled event loop exception",1342029746233
+error,log,,,"Unhandled event loop exception",1342029746242
+error,log,,,"Unhandled event loop exception",1342029746251
+error,log,,,"Unhandled event loop exception",1342029746258
+error,log,,,"Unhandled event loop exception",1342029746267
+error,log,,,"Unhandled event loop exception",1342029746275
+error,log,,,"Unhandled event loop exception",1342029746283
+error,log,,,"Unhandled event loop exception",1342029746292
+error,log,,,"Unhandled event loop exception",1342029746301
+error,log,,,"Unhandled event loop exception",1342029746308
+error,log,,,"Unhandled event loop exception",1342029746316
+error,log,,,"Unhandled event loop exception",1342029746324
+error,log,,,"Unhandled event loop exception",1342029746331
