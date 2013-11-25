@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Act_Chk_Version"
+        android:icon="@drawable/ic_action_about"
+        android:showAsAction="never"
+        android:title="@string/Act_Chk_Version"/>
+    <item
+        android:id="@+id/Act_Devteam_info"
+        android:icon="@drawable/ic_action_about"
+        android:showAsAction="never"
+        android:title="@string/Act_Devteam_info"/>
+    <item
+        android:id="@+id/Act_Help"
+        android:icon="@drawable/ic_action_help"
+        android:showAsAction="never"
+        android:title="@string/Act_Help"/>
+     <item
+        android:id="@+id/Act_MainUnlocked"
+        android:icon="@drawable/btn_w_lock_unlocked"
+        android:showAsAction="always|withText"
+        android:title="@string/Act_MainUnlocked"/>
+     <item
+        android:id="@+id/Act_MainLocked"
+        android:icon="@drawable/btn_w_lock"
+        android:showAsAction="always|withText"
+        android:title="@string/Act_MainLocked"/>
+     <item
+        android:id="@+id/Act_Config"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/Act_Config"/>
+
+</menu>

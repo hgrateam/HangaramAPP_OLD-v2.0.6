@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical"
+    android:theme="@style/Holo.Theme" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="@null"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/lTimetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:background="@android:color/black"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#98AFC7"
+                    android:gravity="center_horizontal"
+                    android:padding="7dp"
+                    android:text="  "
+                    android:textColor="@android:color/black" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/DayOfWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#B7CEEC"
+                    android:gravity="center_horizontal"
+                    android:padding="7dp"
+                    android:text="요일"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#B7CEEC"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="1교시"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/Period1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="_1교시"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#B7CEEC"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="2교시"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/Period2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="_2교시"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#B7CEEC"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="3교시"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/Period3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="_3교시"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#B7CEEC"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="4교시"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/Period4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="_4교시"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#B7CEEC"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="5교시"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/Period5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="_5교시"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="#B7CEEC"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="6교시"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/Period6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:text="_6교시"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="@drawable/squ_notice">
+
+        <Button
+            android:id="@+id/TimeTablePre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/PreDay"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/TimeTableToday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_gravity="center_vertical"
+            android:text="오늘로"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/TimeTableNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="1.5dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/NextDay"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

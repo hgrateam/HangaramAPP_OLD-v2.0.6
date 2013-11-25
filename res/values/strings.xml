@@ -1,44 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_ver">1.1.1</string><string name="app_name">한가람앱</string>
-    <string name="Ateam_info">한가람 고등학교 앱개발부서</string>
-    <string name="Ateam_home">클릭하시면 A-TEAM 홈페이지로 이동합니다.</string>
-    <string name="Crew_Leader_Ateam">부장 전수현</string>
-    <string name="Crew_Secondary_Leader_Ateam">차장 장동재</string>
-    <string name="Crew1_Ateam">김준수</string>
-    <string name="Crew2_Ateam">성기선</string>
-    <string name="Crew3_Ateam">조석주</string>
-    <string name="DigitalClock">DigitalClock</string>
+
+    <string name="$app_ver">2.0</string>
+    <string name="$app_name">한가람앱</string>
     <string name="Now_constructing">(현재 구현중에 있습니다)</string>
+    <string name="str_wait">잠시만 기다려 주십시오</string>
     <string name="Next_class">다음 시간은?</string>
-    <string name="toHGR">한가람 고등학교로</string>
-    <string name="inquire_meals">조회하기</string>
-    <string name="inquire_btn_select_date">"&apos;조회하기&apos; 버튼을 누른 뒤, 날짜를 선택하여 주십시오."</string>
-    <string name="Ateam_logo">A-Team의 공식로고입니다.</string>
-    <string name="HGR_Community">한가람고 커뮤니티</string>
-    <string name="toPrincipleWall">교장선생님께</string>
-    <string name="todayMeal">오늘의 급식</string>
-    <string name="pen_w">펜 아이콘</string>
-    <string name="facebook_w">페북 아이콘</string>
-    <string name="meal_w">오늘의 급식 아이콘</string>
-    <string name="toHGRency">한가람 대사전</string>
+    <string name="NetStat_error">네트워크 상태를 확인하여 주십시오.</string>
+    <string name="str_rd">급식 조회 가능 날짜</string>
+    <string name="str_notice">공지사항</string>
+    <string name="error">오류</string>
     <string name="str_lunch">점심</string>
     <string name="str_dinner">저녁</string>
-    
-    <string name="library_w">도서관 아이콘</string>
-    <string name="toHGRlib">도서관</string>
-    <string name="error">오류</string>
-    <string name="str_notice">공지사항</string>
-    <string name="nDAY">전날</string>
-    <string name="pDAY">다음날</string>
-    <string name="str_wait">잠시만 기다려 주십시오</string>
-    <string name="str_plus">+</string>
-    <string name="Calc">과락 계산기</string>
-    <string name="calc_w">과락계산기 아이콘</string>
-    <string name="toCalc">점수 계산기</string>
-    <string name="toAS">방과후학교/급식신청</string>
-    <string name="NetStat_error">네트워크 상태를 확인하여 주십시오.</string>
+    <string name="PreDay">전날</string>
+    <string name="NextDay">다음날</string>
     <string name="per_Project">수행 반영 비율 (0~100)</string>
     <string name="Calculate">계산</string>
+    <string name="mal">&quot;</string>
+    <string name="Copyrights">\n\n\nUsed Library :
+\n
+\n---ActionBarSherlock---
+\n
+\n&#169; 2012 Jake Wharton
+\n
+\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+\nYou may obtain a copy of the License at
+\n
+\n   http://www.apache.org/licenses/LICENSE-2.0
+\n
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+\n
+\n---ViewPagerIndicator---
+\n
+\n&#169; 2012 Jake Wharton
+\n
+\nDeveloped and distributed under the Apache License, Version 2.0.
+\n
+\nOriginally based on widgets developed by Patrik Åkerfeldt.
+\n
+\n---HoloEverywhere---
+\n
+\nCopyright &#169; 2012 Christophe Versieux, Sergey Shatunov
+\n
+\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+\n
+\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+\n
+\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
 
 </resources>

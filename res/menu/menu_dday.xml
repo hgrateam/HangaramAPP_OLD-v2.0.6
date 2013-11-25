@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_dday"
+        android:showAsAction="always|withText"
+        android:title="개인 일정 추가">
+    </item>
+    <item
+        android:id="@+id/parse_sche"
+        android:icon="@drawable/ic_action_import_export"
+        android:showAsAction="always"
+        android:title="학사일정 업데이트">
+    </item>
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timetable_subject_input">
+        <item >수학의 활용</item>
+        <item >수학I</item>
+        <item >수학II</item>
+        <item >고등수학</item> 
+		<item >적분과 통계</item>
+        <item >기하와 벡터</item>
+		<item >미적분과 통계의 기본</item>
+
+		<item >융합과학</item>
+        <item >화학I</item>
+        <item >화학II</item>
+        <item >물리I</item>
+        <item >물리II</item>
+        <item >생물I</item>
+        <item >생물II</item>
+        <item >지구과학I</item>
+        <item >지구과학II</item>
+		<item >과학</item>
+        <item >환경과학</item>
+
+        <item >경제</item>
+        <item >한국지리</item>
+        <item >사회문화</item>
+        <item >윤리와 사상</item>
+        <item >동아시아사</item>
+		<item >사회</item>
+        <item >사회문화</item>
+		<item >한국사</item>
+        <item >세계사</item>
+        <item >세계지리</item>
+        <item >법과 정치</item>
+        <item >국제경제</item>
+        <item >생활과 윤리</item>
+
+        <item >고급수학</item>
+        <item >고급물리</item>
+        <item >고급화학</item>
+        <item >고급생명</item>
+
+        <item >CR&amp;W</item>
+        <item >영어강독</item>
+        <item >영어I</item>
+        <item >영어II</item>
+        <item >영어독해와 작문</item>
+        <item >영어</item>
+        <item >실용영어회화</item>
+
+
+        <item >독서와 문법I</item>
+        <item >독서와 문법II</item>
+        <item >고등국어</item>
+        <item >문학I</item>
+        <item >문학II</item>
+        <item >국어</item>
+
+
+        <item >디지털 사진촬영</item>
+        <item >합주</item>
+        <item >애니메이션 제작</item>
+        <item >체력운동</item>
+        <item >영화감상과 비평</item>
+        <item >영화의 이해</item>
+        <item >개인대인운동</item>
+        <item >외국조리</item>
+        <item >한국조리</item>
+        <item >연극의 이해</item>
+        <item >연극제작실습</item>
+        <item >단체운동</item>
+        <item >음악</item>
+        <item >미술</item>
+        <item >체육</item>
+
+        <item >인문사회논술</item>
+        <item >수리논술</item>
+        
+        <item >일본어</item>
+        <item >중국어</item>
+        <item >한문</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Ateam_logo">A-Team의 공식로고입니다.</string>
+    <string name="pen_w">펜 아이콘</string>
+    <string name="facebook_w">페북 아이콘</string>
+    <string name="meal_w">오늘의 급식 아이콘</string>
+    <string name="library_w">도서관 아이콘</string>
+    <string name="calc_w">과락계산기 아이콘</string>
+    <string name="teachers_w">선생님들 아이콘</string>
+    
+</resources>

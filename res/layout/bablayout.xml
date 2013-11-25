@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="146dp"
+    android:layout_height="72dp"
+    android:gravity="center"
+    android:paddingLeft="5dp"
+    android:paddingRight="18dp"
+    android:background="@drawable/babwidgetbackg"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/showbab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/babwidgettext"
+        android:paddingBottom="7dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingTop="7dp"
+        android:text="급식 정보가 존재하지 않거나 네트워크에 연결되어 있지 않습니다. 30분후에  재시도 됩니다."
+        android:textColor="#000000"
+        android:textSize="9dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

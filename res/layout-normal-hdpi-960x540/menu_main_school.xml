@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/lPrincipleWall"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="24dp" >
+
+            <ImageButton
+                android:id="@+id/BPrincipleWall"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/trans_frame_btn_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Act_toPrincipleWall"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/pen_w"
+                android:src="@drawable/pen_w" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lHGR"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignTop="@+id/lPrincipleWall"
+            android:layout_marginRight="18dp"
+            android:layout_toLeftOf="@+id/lPrincipleWall" >
+
+            <ImageButton
+                android:id="@+id/BHGR"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/trans_frame_btn_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Act_toHGR"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/pen_w"
+                android:src="@drawable/hgrapp_w" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lSchoolInfo"
+            android:layout_width="298dp"
+            android:layout_height="140dp"
+            android:layout_alignLeft="@+id/lHGR"
+            android:layout_below="@+id/lHGR"
+            android:layout_marginTop="18dp" >
+
+            <ImageButton
+            	android:id="@+id/BSchoolInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/trans_frame_btn_l_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Act_SchoolInfo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/meal_w"
+                android:src="@drawable/school_info_w" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lLib"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignLeft="@+id/lSchoolInfo"
+            android:layout_below="@+id/lSchoolInfo"
+            android:layout_marginTop="18dp" >
+
+            <ImageButton
+                android:id="@+id/BLib"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/trans_frame_btn_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Act_toHGRlib"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/library_w"
+                android:src="@drawable/library_w" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lAfterSchool"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignTop="@+id/lLib"
+            android:layout_toRightOf="@+id/lHGR" >
+
+            <ImageButton
+                android:id="@+id/BAfterSchool"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/trans_frame_btn_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Act_toAfterSchool"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/library_w"
+                android:src="@drawable/briefcase_w" />
+        </RelativeLayout>
+    </RelativeLayout>

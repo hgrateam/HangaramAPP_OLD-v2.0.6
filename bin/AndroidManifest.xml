@@ -1,45 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.Ateam.HangaramAPP"
-    android:versionCode="5"
-    android:versionName="@string/app_ver" >
+    package="com.ATeam.HangaramAPP"
+    android:versionCode="33"
+    android:versionName="@string/$app_ver" >
 
-    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7"/>
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
- 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
     <application
+        android:name="org.holoeverywhere.app.Application"
+        android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" android:theme="@android:style/Theme.Black.NoTitleBar">
+        android:label="@string/$app_name"
+        android:theme="@style/Holo.Theme.Light.DarkActionBar" >
+        <receiver android:name="com.ATeam.HangaramAPP.BabWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/babwidget" />
+        </receiver>
+
         <activity
-            android:name=".HangaramAPPActivity"
-            android:label="@string/app_name" >
+            android:name="com.ATeam.HangaramAPP.Intro"
+            android:label="@string/$app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name="Intro"
-            android:screenOrientation= "portrait"></activity>
-        <activity 
-            android:name="Parsing"
-            android:screenOrientation= "portrait"></activity>
-        <activity 
-            android:name="Devteam_info"
-            android:screenOrientation= "portrait"></activity>
-        <activity 
-            android:name="Main"
-           	android:screenOrientation= "portrait"></activity>
-        <activity 
-            android:name="Chk_UPDATE"
-            android:theme="@android:style/Theme.Translucent"
-            android:screenOrientation= "portrait"></activity>
-        <activity android:name="Loading_Parsing"></activity>
-        <activity android:name="Calc"></activity><activity android:name="DBupdate"></activity>
-        
-        <activity android:name="DbAdapter"></activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Today_meal"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow"  >
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Devteam_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Help"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Calc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Config" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.DbAdapter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Teachers_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Teachers_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Main_SchoolMenu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Main_Tools"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.SchoolInfo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ATeam.HangaramAPP.Main_Community"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.ATeam.HangaramAPP.Dday" >
+        </activity>
+        <activity android:name="com.ATeam.HangaramAPP.hgrlib" >
+        </activity>
+        <activity android:name="com.ATeam.HangaramAPP.Main_build"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/ScheHelpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="학사일정을 불러오시려면 \n오른쪽 상단의  \n&lt;학사일정 업데이트&gt;\n 버튼을 눌러주세요."
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <org.holoeverywhere.widget.ListView
+        android:id="@+id/ScheList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.65" >
+    </org.holoeverywhere.widget.ListView>
+
+</LinearLayout>

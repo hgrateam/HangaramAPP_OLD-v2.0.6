@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_preference">
+        <item >기본</item>
+        <item >핫핑크</item>
+        <item >초록 자연</item>
+        <item >빨간 장미</item>
+        <item >푸른 바다</item>
+    </string-array>
+    <string-array name="entryvalues_list_preference">
+        <item >default</item>
+        <item >hotpink</item>
+        <item >green</item>
+        <item >red</item>
+        <item >skyblue</item>
+    </string-array>
+    
+</resources>

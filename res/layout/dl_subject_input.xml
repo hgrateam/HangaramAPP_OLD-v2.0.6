@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <org.holoeverywhere.widget.AutoCompleteTextView
+        android:id="@+id/setSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+       	android:dropDownHeight="200dp"
+        android:ems="10"
+        android:singleLine="true"
+        android:hint="원하시는 과목명을 입력하세요." >
+        <requestFocus />
+        </org.holoeverywhere.widget.AutoCompleteTextView>
+ 
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="startup_prefgroup"
+        android:title="시작설정" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:disableDependentsState="false"
+            android:enabled="true"
+            android:key="notice_popup_pref"
+            android:summary="앱 시작시 공지사항을 확인합니다."
+            android:title="공지사항 팝업" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:disableDependentsState="false"
+            android:enabled="true"
+            android:key="autostart_help_pref"
+            android:summary="앱 시작시 도움말을 표시합니다."
+            android:title="도움말" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="theme_prefgroup"
+        android:title="테마설정" >
+        <ListPreference
+            android:defaultValue="default"
+            android:dialogTitle="테마"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="theme_pref"
+            android:negativeButtonText="취소"
+            android:positiveButtonText="확인"
+            android:summary="한가람앱에서 사용할 테마를 선택합니다. 변경시 앱을 재실행하면 정상적으로 적용됩니다."
+            android:title="테마설정" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="others_prefgroup"
+        android:title="기타" >
+        <Preference
+            android:key="config_reset_pref"
+            android:summary="한가람앱의 설정값을 초기상태로 되돌립니다."
+            android:title="설정 초기화" />
+        <Preference
+            android:key="delete_meal_pref"
+            android:summary="기기 내부에 저장된 &lt;오늘의 급식&gt;의 급식정보를 삭제합니다. 급식 업데이트 오류시 사용하시면 해결될 수도 있습니다."
+            android:title="급식정보 폐기" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

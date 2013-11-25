@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme" parent="Holo.Theme"></style>
+
+    <style name="Default" parent="Theme">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.Default</item>
+    </style>
+
+    <style name="Schedule" parent="Theme">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.Schedule</item>
+        <item name="actionMenuTextColor">@android:color/black</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_light</item>
+    </style>
+
+    <style name="TodayMeal" parent="Theme">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.TodayMeal</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="Red" parent="Theme">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.Red</item>
+    </style>
+    
+    <style name="Skyblue" parent="Theme">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.Skyblue</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar.Default" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/bg_gray_img</item>
+        <item name="android:background">@drawable/bg_gray_img</item>
+        <item name="backgroundSplit">@drawable/bg_gray_img</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar.Schedule" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/Schedule</item>
+        <item name="backgroundSplit">@color/Schedule</item>
+        <item name="titleTextStyle">@style/Schedule.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar.TodayMeal" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/TodayMeal</item>
+        <item name="backgroundSplit">@color/TodayMeal</item>
+        <item name="titleTextStyle">@style/TodayMeal.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar.Red" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/bg_red_img</item>
+        <item name="android:background">@drawable/bg_red_img</item>
+        <item name="backgroundSplit">@drawable/bg_red_img</item>
+    </style>
+    
+    <style name="Widget.Styled.ActionBar.Skyblue" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/bg_skyblue_img</item>
+        <item name="android:background">@drawable/bg_skyblue_img</item>
+        <item name="backgroundSplit">@drawable/bg_skyblue_img</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+     <style name="Schedule.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title">
+    <item name="android:textColor">@android:color/black </item>
+  </style>
+     <style name="TodayMeal.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title">
+    <item name="android:textColor">@android:color/white </item>
+  </style>
+
+</resources>

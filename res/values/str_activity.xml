@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Act_Teachers_list">한가람의 선생님들</string>
+    <string name="Act_Today_meal">오늘의 급식</string>
+    <string name="Act_Calc">과락 계산기</string>
+    <string name="Act_Devteam_info">개발팀 정보</string>
+    <string name="Act_Config">설정</string>
+    <string name="Act_Help">도움말</string>
+    <string name="Act_Chk_Version">버전 정보</string>
+    <string name="Act_toHGR">한가람 고등학교로</string>
+    <string name="Act_Parsing_meal">급식정보 업데이트</string>
+    <string name="Act_Main_Community">소통하는 한가람</string>
+    <string name="Act_toHGRency">한가람 대사전</string>
+    <string name="Act_toAfterSchool">방과후학교/급식신청</string>
+    <string name="Act_toPrincipleWall">교장선생님께</string>
+    <string name="Act_toHGRlib">도서관</string>
+    <string name="Act_Main_SchoolInfo">학교정보</string>
+    <string name="Act_SchoolMenu">학교메뉴</string>
+    <string name="Act_Dday">학사일정</string>
+    <string name="Act_Main_Tools">도구상자</string>
+    <string name="Act_SchoolInfo">학교정보</string>
+    <string name="Act_Com15th">한가람고 15기 그룹</string>
+    <string name="Act_Com16th">한가람고 16기 그룹</string>
+    <string name="Act_Com17th">한가람고 17기 그룹</string>
+    <string name="Act_Main_SchoolMenu">학교메뉴</string>
+    <string name="Act_MainLocked">편집 잠금해제</string>
+    <string name="Act_MainUnlocked">편집 잠금</string>
+    
+</resources>

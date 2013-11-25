@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Ateam_info">한가람 고등학교 앱개발부서</string>
+    <string name="Ateam_home">클릭하시면 A-TEAM 홈페이지로 이동합니다.</string>
+    <string name="Crew_Leader_Ateam">부장 전수현</string>
+    <string name="Crew_Secondary_Leader_Ateam">차장 장동재</string>
+    <string name="Crew1_Ateam">김준수</string>
+    <string name="Crew2_Ateam">성기선</string>
+    <string name="Crew3_Ateam">조석주</string>
+    <string name="Crew4_Ateam">윤태두</string>
+    
+</resources>

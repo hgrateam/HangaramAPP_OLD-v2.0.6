@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@+id/tab_host"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:scrollbars="none">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2" >
+                </TabWidget>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <ListView
+                        android:id="@+id/tab1_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                    </ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab2_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                    </ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab3_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                    </ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab4_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                        </ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab5_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                        </ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab6_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                        </ListView>
+                </LinearLayout>
+                
+                 <LinearLayout
+                    android:id="@+id/tab7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab7_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                        </ListView>
+                </LinearLayout>
+                
+                 <LinearLayout
+                    android:id="@+id/tab8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab8_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                        </ListView>
+                </LinearLayout>
+                
+                 <LinearLayout
+                    android:id="@+id/tab9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab9_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                        </ListView>
+                </LinearLayout>
+                
+                 <LinearLayout
+                    android:id="@+id/tab10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    
+                    <ListView
+                        android:id="@+id/tab10_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+                        </ListView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

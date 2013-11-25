@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/Help"
+        android:icon="@drawable/ic_action_help"
+        android:showAsAction="never"
+        android:title="@string/Act_Help">
+    </item>
+    <item
+        android:id="@+id/PreDay"
+        android:icon="@drawable/ic_action_back"
+        android:showAsAction="always|withText"
+        android:title="@string/PreDay"/>
+    
+     <item
+        android:id="@+id/Today"
+        android:showAsAction="always|withText"
+        android:title="오늘로"/>
+     
+    <item
+        android:id="@+id/NextDay"
+        android:icon="@drawable/ic_action_forward"
+        android:showAsAction="always|withText"
+        android:title="@string/NextDay"/>
+    <item
+        android:id="@+id/Act_Parsing_meal"
+        android:icon="@drawable/ic_action_import_export_l"
+        android:showAsAction="always"
+        android:title="@string/Act_Parsing_meal"/>
+</menu>
