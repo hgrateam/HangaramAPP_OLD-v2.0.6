@@ -1,6 +1,7 @@
 HangaramAPP
 ===========
 
-Repository for HangaramAPP of A-team.
+Old repository for HangaramAPP of A-team.
+You can reach to the modern project now being developed from the link below:
 
-This is first version of README.
+https://github.com/hgrateam/HangaramAPP
